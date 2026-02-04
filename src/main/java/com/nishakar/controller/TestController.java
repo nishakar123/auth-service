@@ -23,7 +23,7 @@ Use hasAuthority('ADMIN') in annotation.*/
 @Slf4j
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/api/auth-service/test")
 public class TestController {
 
     @GetMapping

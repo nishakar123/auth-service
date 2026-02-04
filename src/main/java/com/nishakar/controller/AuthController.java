@@ -14,6 +14,7 @@ import java.util.List;
 @Slf4j
 @RequiredArgsConstructor
 @RestController
+@RequestMapping("/api/auth-service")
 public class AuthController {
 
     private final AuthUserMapper authUserMapper;
