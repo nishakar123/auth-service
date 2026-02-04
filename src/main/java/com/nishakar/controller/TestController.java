@@ -26,7 +26,7 @@ Use hasAuthority('ADMIN') in annotation.*/
 @RequestMapping("/api/auth-service/test")
 public class TestController {
 
-    @GetMapping
+    @GetMapping("/")
     public String hello(){
         return "Hello";
     }

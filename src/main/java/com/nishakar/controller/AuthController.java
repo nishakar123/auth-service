@@ -21,7 +21,7 @@ public class AuthController {
 
     private final AuthUserService authUserService;
 
-    @GetMapping
+    @GetMapping("/")
     @ResponseStatus(HttpStatus.OK)
     public String rootPath(){
         log.info("Thread : {}", Thread.currentThread());
